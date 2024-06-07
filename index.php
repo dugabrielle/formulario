@@ -116,7 +116,10 @@
                         </select>
                     </div>
                     
+                    <div class="col-md-12 d-flex justify-content-between">
                     <button type="submit" name="enviar" class="btn btn-light col-md-4 my-2 pt-1"><span class="btn1">Enviar</span></button>
+                    <button type="reset" name="reset" class="btn btn-light col-md-4 my-2 pt-1"><span class="btn1">Apagar</span></button>
+                    </div>
                 </div>
 
             </form>
