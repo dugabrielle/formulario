@@ -79,14 +79,14 @@
             <div class="form-group">
                     <div class="col-md-4 offset-md-4">
                         <label for="nome" class="col-form-label">Nome:</label>
-                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" maxlength="30"> 
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" maxlength="30" pattern="[A-Za-zÀ-ú\s]+" > 
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-md-4 offset-md-4">
                         <label for="email" class="col-form-label">Endereço de e-mail:</label>
-                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailTrue" placeholder="nome@exemplo.com">
+                        <input type="email" class="form-control" id="email" required name="email" aria-describedby="emailTrue" placeholder="nome@exemplo.com">
                         <small id="emailTrue" class="form-text text-muted"><span>Insira um e-mail válido.</span></small>
                     </div>
                 </div>
